@@ -1,0 +1,81 @@
+body, html{
+    width: 100%;
+    height: 50%;
+}
+
+body{
+    background-image: url(../img/fondo.gif);
+}
+
+.contenido{
+    margin: 80px 0px 10px 59.8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 0px 0px 20px 0px;
+    background-image: url(../img/pokebola.jpg);
+    background-size: 501px;
+    background-repeat: no-repeat;
+    color: rgb(214, 208, 119);
+    border: solid;
+    border-radius: 30px;
+    height: 18rem;
+    width: 18rem;
+}
+
+.logo{
+    width: 380px;
+    height: 300px;    
+}
+
+.secondImg{
+    width: 40px;
+    height: 50px;
+}
+
+.sizeImg{
+    height: 120px;
+    width: 140px;
+}
+
+#typeOption{
+    padding: 5px 10px 5px 10px;
+    width: 120px;
+    border-radius: 30px;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    color: aqua;
+    border: solid;
+    padding: 20px;
+    background-color: rgb(57, 88, 88);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.detalles{
+    border-radius: 20px;
+    pad: 10px;
+}
+
+#atras{
+    padding: 2px 20px 2px 20px;
+    background-color:aqua;
+    border-radius: 30px;
+    width: 100px;
+}
+
+#siguiente{
+    padding: 2px 20px 2px 20px;
+    background-color: aqua;
+    border-radius: 30px;
+}
+
+.botones-cargar{
+    margin-bottom: 40px;
+    gap: 100px;
+}
